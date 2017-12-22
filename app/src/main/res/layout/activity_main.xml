@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edeleon8425.midterm_prog3210.MainActivity">
+
+    <Button
+        android:id="@+id/Button1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorAccent"
+        android:text="Add Comments"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/Button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/Button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorAccent"
+        android:text="Contact Us"
+        android:textSize="10dp" />
+
+    <ListView
+        android:id="@+id/commentsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Button2"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold">
+    </ListView>
+</RelativeLayout>
